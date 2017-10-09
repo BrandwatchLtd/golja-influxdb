@@ -42,6 +42,7 @@ class influxdb::params {
   $compact_min_file_count                       = undef
   $compact_full_write_cold_duration             = undef
   $max_points_per_block                         = undef
+  $max_series_per_database                      = undef
 
   $hinted_handoff_enabled                       = true
   $hinted_handoff_dir                           = '/var/lib/influxdb/hh'
