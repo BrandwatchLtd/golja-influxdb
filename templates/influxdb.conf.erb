@@ -63,6 +63,9 @@ reporting-disabled = <%= @reporting_disabled %>
 <% if @max_series_per_database -%>
   max-series-per-database = <%= @max_series_per_database %>
 <% end -%>
+<% if @max_values_per_tag -%>
+  max-values-per-tag = <%= @max_values_per_tag %>
+<% end -%>
 
 [hinted-handoff]
   enabled = <%= @hinted_handoff_enabled %>
